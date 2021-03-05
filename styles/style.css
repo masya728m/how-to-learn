@@ -9,8 +9,17 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-* {
+
+/* * {
     border: 1px solid red;
+} */
+
+h1,
+h2,
+h3,
+p,
+a,
+span {
     margin: 0;
     padding: 0;
 }
@@ -63,6 +72,7 @@
 
 .header__link {
     color: #2f80ed;
+    text-decoration: none;
 }
 
 .header__main-illustration {
@@ -114,11 +124,11 @@
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
+    margin-bottom: 30px;
 }
 
-.two-columns__paragraph::nth-child(2) {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.two-columns__paragraph:last-child {
+    margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -222,6 +232,7 @@
     font-size: 36px;
     font-weight: normal;
     color: #2f80ed;
+    text-decoration: none;
 }
 
 .feynman__logo {
@@ -298,7 +309,7 @@
     color: white;
 }
 
-.kaufman_triangle {
+.kaufman__triangle {
     position: absolute;
     background-image: url('../images/kaufman-triangle.svg');
     right: -210px;
@@ -372,4 +383,5 @@ ul {
     font-size: 18px;
     font-weight: normal;
     color: white;
+    text-decoration: none;
 }
