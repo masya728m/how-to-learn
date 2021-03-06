@@ -14,16 +14,6 @@
     border: 1px solid red;
 } */
 
-h1,
-h2,
-h3,
-p,
-a,
-span {
-    margin: 0;
-    padding: 0;
-}
-
 .header {
     height: 100vh;
     min-height: 600px;
@@ -36,6 +26,7 @@ span {
 .logo {
     display: block;
     margin: 0;
+    padding: 0;
 }
 
 .logo_place_header {
@@ -59,6 +50,8 @@ span {
 }
 
 .header__subtitle {
+    margin: 0;
+    padding: 0;
     width: 388px;
     line-height: 25px;
     font-size: 18px;
@@ -71,6 +64,8 @@ span {
 }
 
 .header__link {
+    margin: 0;
+    padding: 0;
     color: #2f80ed;
     text-decoration: none;
 }
@@ -106,6 +101,8 @@ span {
 }
 
 .two-columns__brief {
+    margin: 0;
+    padding: 0;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
@@ -121,6 +118,8 @@ span {
 }
 
 .two-columns__paragraph {
+    margin: 0;
+    padding: 0;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
@@ -132,10 +131,14 @@ span {
 }
 
 .two-columns__span-accent {
+    margin: 0;
+    padding: 0;
     font-weight: bold;
 }
 
 .section-title {
+    margin: 0;
+    padding: 0;
     margin-top: 100px;
     width: 60%;
     margin-left: auto;
@@ -147,6 +150,8 @@ span {
 }
 
 .section-subtitle {
+    margin: 0;
+    padding: 0;
     margin-top: 20px;
     margin-bottom: 0px;
     width: 60%;
@@ -174,6 +179,8 @@ span {
 }
 
 .table__heading {
+    margin: 0;
+    padding: 0;
     padding-bottom: 20px;
     line-height: 1.15;
     font-size: 24px;
@@ -181,6 +188,8 @@ span {
 }
 
 .table__text {
+    margin: 0;
+    padding: 0;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
@@ -195,11 +204,12 @@ span {
     height: 790px;
     position: relative;
     background-color: #f2f2f2;
-    margin-top: 100px;
     padding-top: 100px;
 }
 
 .feynman__title {
+    margin: 0;
+    padding: 0;
     position: relative;
     width: 648px;
     margin-top: 0px;
@@ -213,6 +223,8 @@ span {
 }
 
 .feynman__subtitle {
+    margin: 0;
+    padding: 0;
     position: relative;
     margin-top: 70px;
     text-align: center;
@@ -225,6 +237,8 @@ span {
 }
 
 .feynman__link {
+    margin: 0;
+    padding: 0;
     top: 50%;
     right: 48px;
     position: absolute;
@@ -359,6 +373,8 @@ span {
 }
 
 .footer__column-heading {
+    padding: 0;
+    margin: 0;
     font-weight: bold;
     line-height: 30px;
     font-size: 18px;
@@ -373,6 +389,8 @@ ul {
 }
 
 .footer__column-links {
+    margin: 0;
+    padding: 0;
     margin-top: 20px;
     margin-bottom: 16px;
 }
