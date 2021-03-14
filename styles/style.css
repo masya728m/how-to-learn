@@ -9,10 +9,9 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-
-/* * {
+* {
     border: 1px solid red;
-} */
+}
 
 .header {
     height: 100vh;
@@ -21,6 +20,8 @@
     position: relative;
     background-color: #f2f2f2;
     display: flex;
+    overflow: hidden;
+    /*чтобы квадрат при повороте не переполнял родительский блок*/
 }
 
 .logo {
@@ -88,6 +89,17 @@
     position: absolute;
     top: 64px;
     right: 0;
+    animation: rotation 20s linear infinite;
+    /*равномерное бесконечное перемещение*/
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 .two-columns {
@@ -134,6 +146,51 @@
     margin: 0;
     padding: 0;
     font-weight: bold;
+}
+
+.techniques {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards {
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards__item {
+    width: 240px;
+}
+
+.cards__image {
+    width: 160px;
+    height: 160px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.cards__title {
+    margin-top: 43px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards__description {
+    margin-top: 16px;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .section-title {
