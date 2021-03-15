@@ -4,3 +4,8 @@
     color: #2f80ed;
     text-decoration: none;
 }
+
+.header__link:hover {
+    transition: linear 1s;
+    opacity: 0.5;
+}
