@@ -6,14 +6,4 @@
     height: 877px;
     background-size: 877px;
     top: 0;
-    animation: rotation 20s linear infinite;
-}
-
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }
